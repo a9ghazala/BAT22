@@ -3,13 +3,14 @@ package stepdefinations;
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;
-import org.junit.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Assert;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
